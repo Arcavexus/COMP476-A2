@@ -1,0 +1,13 @@
+<behavior-tree>
+	<sequence>
+		<selector>
+			<sequence>
+				<condition name="has-line-of-sight"/>
+				<leaf name="chase-target"/>
+			</sequence>
+			<sequence>
+				<leaf name="wander"/>
+			</sequence>
+		</selector>
+	</sequence>
+</behavior-tree>
